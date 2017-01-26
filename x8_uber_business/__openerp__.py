@@ -10,6 +10,9 @@
 
         - Administración de lista de empleados que usan Uber, códigos y datos de viajes.
     """,
+    'data': [
+        'views/configuracion.xml'
+    ],
     'depends': [
         'base',
         'x8_uber_business_empleados'
