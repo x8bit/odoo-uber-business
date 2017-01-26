@@ -12,6 +12,7 @@
 	""",
 	'data': [
 		'views/menu.xml',
+		'views/empleado_form_view.xml',
 		'views/empleados_uber_view.xml'
 	],
 	'depends': [
