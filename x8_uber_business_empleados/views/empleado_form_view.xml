@@ -1,0 +1,20 @@
+<openerp>
+	<data>
+		<record model="ir.ui.view" id="view_x8_uber_business_empleado_form">
+			<field name="name">view.x8.uber.business.empleados.form</field>
+			<field name="model">hr.employee</field>
+			<field name="inherit_id" ref="hr.view_employee_form"/>
+			<field name="arch" type="xml">
+				<xpath expr="//page[@name='public']" position="after">
+					<page name="uber_info" string="Información uber">
+						<group>
+							<group name="uber_data" string="Datos uber" >
+								<field name="can_use_uber" string="Puede usar uber"/>
+							</group>
+						</group>
+					</page>
+				</xpath>
+			</field>
+		</record>
+	</data>
+</openerp>
