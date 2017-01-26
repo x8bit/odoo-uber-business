@@ -1,0 +1,13 @@
+<openerp>
+    <data>
+
+        <record id="x8_uber_business_empleados_list" model="ir.actions.act_window">
+            <field name="name">Empleados que pueden usar uber</field>
+            <field name="res_model">hr.employee</field>
+            <field name="view_type">form</field>
+            <field name="view_mode">tree,form</field>
+        </record>
+
+        <menuitem name="Empleados uber" id="x8_uber_business_menu_empleados" parent="x8_uber_business_root_menu" sequence="30" action="x8_uber_business_empleados_list"/>
+    </data>
+</openerp>
