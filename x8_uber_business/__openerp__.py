@@ -12,5 +12,6 @@
     """,
     'depends': [
         'base',
+        'x8_uber_business_empleados'
     ],
 }
